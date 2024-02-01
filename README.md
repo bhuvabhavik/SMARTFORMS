@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+[!IMPORTANT]
 
 # SMARTFORMS
 ## my sap abap **smartform notes**
