@@ -36,6 +36,63 @@
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/5ad4fb8d-057a-4dc0-85c5-f71ac03d312e)
 
 
+##GO TO GLOBAL DEFINATION > TYPES > and DECLARE STRUCTURES for table
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/d421edee-767b-4b9d-bd98-0be44aebb022)
+
+## DECLARE INTERNAL TABLES AND WORKAREAS
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/12400f32-0a38-459f-b335-1ec9fe15a643)
+
+## NOW WRITE THE LOGIC PART TO FETCH THE DATA IN INITIALISATION PART AND DECLARE INPUT OUTPUT PARAMETERS
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/13f86ee1-023a-4100-a40d-2e3bc8f76129)
+
+```
+SELECT ONO ODATE PM TA CURR
+  FROM ZORDH__28
+  INTO TABLE LT_DATA
+  WHERE ONO = P_ONO.
+
+  IF LT_DATA IS NOT INITIAL.
+    READ TABLE LT_DATA INTO LWA_DATA INDEX 1.
+    SELECT ONO OIN ICOST
+      FROM ZORI_28
+      INTO TABLE LT_DATA1
+      FOR ALL ENTRIES IN LT_DATA
+      WHERE ONO = LT_DATA-ONO.
+      ENDIF.
+
+```
+
+## WE HAVE MOVED THE DATA OF FIRST INTERNAL TABLE INTO WORKAREA USING READ STATEMENT
+## NOW WE NEED TO LOOP OVER INTERNAL TABLE 2 
+this is how to do it
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fc433f17-69e0-4ee4-86f5-84da3ae5e1be)
+
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/dc721dce-5587-4ad3-b476-61de1640166d) ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/5ab9739a-c30f-419f-bd56-648fb0abc7d5)
+
+
+similarly add it to all the value fields.
+# now we will go to the total part
+## declare the variable for total
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/8bf4db16-65f3-4672-af8c-db2899d29173)
+## then
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/097f4b86-1fa2-4abb-aed2-27eccbe97835)
+ then go to footer and add texts &lv_total&
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
@@ -166,9 +223,9 @@
 
 
 
-
-
 > [!IMPORTANT]
+
+
 > Key information users need to know to achieve their goal.
 
 > [!WARNING]
