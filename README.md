@@ -82,8 +82,68 @@ similarly add it to all the value fields.
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/097f4b86-1fa2-4abb-aed2-27eccbe97835)
  then go to footer and add texts &lv_total&
 
+ ## everything related to design part logic part is done now we will check the output next.
+
+ ### calling the smartforms from the driver program.
+ ### whenever we run a samrtforms every smartforms generates a function module.
+ now customer will not go through all the steps so making a program for it is better.
+  ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/66bef865-9582-4c83-8e3c-703c7b692098)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/82590357-0c3e-40b3-9b1e-e865cb7d7230)
+## thiis program is working fine but when it may goto quality or production it may fail. bevause we are hardcoded the fuction module and function module are dynaic and generate at run time.
+
+# so the sap provided the solution for that
+> [!IMPORTANT]
+# SSF_FUNCTION_MODULE_NAME
+## sap provide this function module in which if we pass smartform it retuens the function module of the smartform.
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/f2628af9-c101-4c4d-ba1b-381f26330262)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fd23a4f5-35a4-494c-8609-89aaac6a994d)
+
+```
+*&---------------------------------------------------------------------*
+*& Report ZSF_DRIVERPROG_201
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+REPORT zsf_driverprog_201.
+DATA: lv_fname TYPE RS38L_FNAM.
+PARAMETERS: p_ono TYPE zdeono__28.
 
 
+CALL FUNCTION 'SSF_FUNCTION_MODULE_NAME'
+  EXPORTING
+    formname                 = 'ZSMARTFORM_201'
+*   VARIANT                  = ' '
+*   DIRECT_CALL              = ' '
+ IMPORTING
+   FM_NAME                  = lv_fname
+ EXCEPTIONS
+   NO_FORM                  = 1
+   NO_FUNCTION_MODULE       = 2
+   OTHERS                   = 3
+          .
+IF sy-subrc <> 0.
+* Implement suitable error handling here
+ENDIF.
+
+
+
+
+CALL FUNCTION lv_fname
+  EXPORTING
+*   USER_SETTINGS              = 'X'
+    p_ono                      = p_ono
+
+ EXCEPTIONS
+   FORMATTING_ERROR           = 1
+   INTERNAL_ERROR             = 2
+   SEND_ERROR                 = 3
+   USER_CANCELED              = 4
+   OTHERS                     = 5
+          .
+IF sy-subrc <> 0.
+* Implement suitable error handling here
+ENDIF.
+```
 
 
 
@@ -223,7 +283,7 @@ similarly add it to all the value fields.
 
 
 
-> [!IMPORTANT]
+
 
 
 > Key information users need to know to achieve their goal.
