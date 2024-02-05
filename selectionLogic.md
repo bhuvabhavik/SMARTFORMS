@@ -2,7 +2,5 @@
 ### yes it is possible and a great preferenece too
 ### previously we have written it seperately so we will write it in driver program now.
 
- 
-
 > [!NOTE]
-> [!NOTE]
+>  we can pass the input or get the output from smartform using the form interface.
