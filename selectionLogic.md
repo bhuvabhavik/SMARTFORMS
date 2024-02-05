@@ -4,3 +4,11 @@
 
 > [!NOTE]
 >  we can pass the input or get the output from smartform using the form interface.
+> 
+> so we will use that to passs the internal tables into smartforms
+> 
+> # for this we need to create a global structure using SE11.
+> 
+> and type table of is also not acceptable so we will create table types.
+>
+> 
