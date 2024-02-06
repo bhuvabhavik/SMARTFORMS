@@ -20,13 +20,17 @@ so lets look at it
 ## but in this case of ours we dont have currency column in the item table so this solution unfortunately doesnt work for us so we will go for second alternative.
 
 >[!NOTE]
+>
 >```
 > interviewer most fav question? in what scenario we maek use of currency/quantity field.
 > ....
 > ....
 > ...
-> ...
-```
+> ..
+>```
+## SOLUTION @2
 
-# SECOND SOLUTION.
-
+1. GO TO SMARTFORMS > GLOBAL DECLARATION
+2. GO TO CURRENCY/QTY
+3. SPECIFY THE REFERENCE FIELD THERE
+4. ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/1186858e-c002-414c-b6b0-3708658d01ed)
