@@ -1,5 +1,5 @@
 # Currency and Quantity field
-we have the below error in our smartform lets understand and reslove it
+we have the below error in our smartform lets understand and reslove it 
 Message:
 Reference field LWA_DATA1-ICOST unknown in form.
 
