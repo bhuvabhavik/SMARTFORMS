@@ -26,8 +26,9 @@
 ## define it in smartform
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/93842e48-1a1f-4485-b288-495b1fb94ecb)
 ## Declare 2 workareas in smartforms
-![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/a3ef84ec-1433-4d47-aea6-39c9c07b7524)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/ed41cd38-1d86-4c55-aec0-3c005d3ae687)
 
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/f94f908c-86d6-4e61-babc-a8a772175629)
 
 
 
