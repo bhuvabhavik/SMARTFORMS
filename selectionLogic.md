@@ -30,5 +30,11 @@
 
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/f94f908c-86d6-4e61-babc-a8a772175629)
 
+# Now we need to integrate the smartform, our smartform&driverprogram is ready means we need to pass the header and item to new smartform we developed
+
+### using function module call it in program
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/2c446339-1e19-4879-8087-4d4de5a71e4e)
+now funciton module cant be hardcoded so change it using *_ssf_function_module_name_*
+
 
 
