@@ -151,3 +151,5 @@ ENDIF.
 ```
 
 
+## but we will not get an output like this we need to work on currency field for that so this topic is contunued with different note file.refer https://github.com/bhuvabhavik/SMARTFORMS/edit/basics-smartform/Currency&QuantityField.md
+
