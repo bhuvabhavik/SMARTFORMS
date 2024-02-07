@@ -1,7 +1,9 @@
 # HOW TO UPLOAD A LOGO OR GRAPHICS IN A SMARTFORM?
 
-#### for that first thing we need to do is uplaod a logo/graphics in sap and then we can use it.
+### for that first thing we need to do is uplaod a logo/graphics in sap and then we can use it.
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/3058c04e-1629-4868-836c-1704aba8e350)
+```
+# STEPS
  1. convert your image to bitmap
  2. goto se78 tcode
  3. double click bitmap and click import
@@ -11,6 +13,16 @@
  7. go to smartform> page and create a new window
  8. check or set the position from formpainter if required.
  9. right click on the window and create a graphics.
- 10. pass the necessary data. 
+ 10. pass the necessary data.
+```
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fc53e92c-3286-4ae9-a51f-5d8b11bba351)
+
+***
+
+
+# DYNAMIC DISPLAY OF GRAPHICS
+### IT MEANS WE HAVE TO DISPLAY A LOGO AS PER SOME CONDITIONS FOR CONDITION 1 DISPLAY THIS FOR THIS ..THIS LIKE THAT...
+### LETS TAKE THE REQUIREMENT THAT IF THE CURRENCY IS INR DISPLAY THE TATA LOGO ELSE OTHER LOGO
+LETS SAY WE HAVE 2 LOGOS TATA_LOGO AND CAPGEMINI_LOGO
+
 
