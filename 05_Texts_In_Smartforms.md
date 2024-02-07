@@ -40,12 +40,37 @@ if get confused open include text and goto> header you will get all the paramete
 
    ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/e42383d8-b5e8-4bf6-9504-f8ce99b456ae)
    ### we know whenever we want to give some input or take some output from/to the smartform always alwez we use the form interface.
+___
+--> we will define the internal table for dynamic text
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/a44d1f5e-4555-4bd5-b0c0-bc6e7ed7d7af)
+
    
+###  suppose we will cerate a dynamic text in seperate window os we will create a new window.
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/bb7abe9a-bbd2-4dfd-8262-9d9d5d9669bd)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/86caab61-86c3-4990-805c-b43fd184bbfc)
+### we will createa  new dynamic text element
+### provide the field and language
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/5db25ff3-c4fc-43b0-a692-28cbece7ead3)
+### now when we execut smartfoem we wil have 2 input parameter
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/3adf44f1-f873-4bcd-8a9a-277abe2eba6c)
 
 
-   
+## but this is not we want because customer will not run the smartform, the data should be come from the program.
+## so lets look at it
 
+### so lets create a parameter in driver prigram
 
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/6db48c8d-eaf7-4b12-bc04-0e95de9f5b7c)
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/bccc1249-bb74-4760-a3aa-be440e7852c6)
+#### what customer pass here we have to display it in our smartform. 
+### we will create internal table and workarea for the ddynamic table
+## _now whatever the text user pass we will pass it to internal table_
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/bd5a888e-45d2-49ff-a42f-09777899ee51)
+
+## now most important thing to understand is we are passing the daa to dynamic text internal table and then now we will pass the internal table to the smartform.
+### lets continue with that
 
 
 
