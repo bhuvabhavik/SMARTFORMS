@@ -71,6 +71,7 @@ ___
 
 ## now most important thing to understand is we are passing the daa to dynamic text internal table and then now we will pass the internal table to the smartform.
 ### lets continue with that
+#### call the function mdule again so we get the updated parameter we created or dynamic text.
 
 
 
