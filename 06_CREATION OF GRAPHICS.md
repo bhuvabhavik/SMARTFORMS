@@ -24,5 +24,15 @@
 ### IT MEANS WE HAVE TO DISPLAY A LOGO AS PER SOME CONDITIONS FOR CONDITION 1 DISPLAY THIS FOR THIS ..THIS LIKE THAT...
 ### LETS TAKE THE REQUIREMENT THAT IF THE CURRENCY IS INR DISPLAY THE TATA LOGO ELSE OTHER LOGO
 LETS SAY WE HAVE 2 LOGOS TATA_LOGO AND CAPGEMINI_LOGO
+- declare a global graphics variable
+- ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/f8fde756-87b9-486c-9451-6f1aef308788)
+- write a condition code at initialisition tab
+- ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/7bc1ec9b-c6e8-4b47-8975-8f332796f9f2)
+- remove the hardcoded graphics name and provide a variable name
+- ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/b6ae7ccd-2e8b-452a-908a-c9937c63addb)
+- ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/3d32c70c-ad88-4d82-b242-db193e336cce)
+
+
+
 
 
