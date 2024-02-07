@@ -1,3 +1,4 @@
+# Smartforms
 # Text in SmartForms (_video no 25 in smartforms_)
 
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/7ce8e05e-4d3f-401c-80e2-16a5930b124f)
@@ -16,17 +17,31 @@ pass the text module name
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/561f269a-19ef-4e73-b21d-cf0d21a66712)
 ### open include text and goto> header you will get all the parameters from there
 
-# _lets loot at how to use include text in a program_
+# _lets look at how to use include text in a program_
 
 1. import the funciton module *_read_text_*.
 
    ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fa754001-52cc-4d09-9451-50fde16d1e43)
-2....
-   ...
-   skipped due to some mistake..todo later
+2.![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/c583924f-ad68-41f8-b664-366760e64ce9)
+if get confused open include text and goto> header you will get all the parameters from there
+3. create variable for receiving output (internal table and workarea in our case as tline is table type)
+   ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/0d99efae-6afb-40b8-b947-0caf46e58f0e)
+
+5. on receiving error pass the system variable *_sy-langu_*.
+   _because sap store the language and 1 char but displays it in two so when we pass the 2 character then its better to pass sy-langu_
+   
+6. now loop on the internal table (which we have created in step 3 )
+7. ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/e1900f6f-eb5b-4c84-a2bf-d395c1b4793d)
 
 
-   # dynamic text
+
+
+   # _DYNAMIC TEXT_
+
+   ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/e42383d8-b5e8-4bf6-9504-f8ce99b456ae)
+   ### we know whenever we want to give some input or take some output from/to the smartform always alwez we use the form interface.
+   
+
 
    
 
