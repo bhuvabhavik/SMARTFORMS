@@ -1,1 +1,16 @@
+# HOW TO UPLOAD A LOGO OR GRAPHICS IN A SMARTFORM?
+
+#### for that first thing we need to do is uplaod a logo/graphics in sap and then we can use it.
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/3058c04e-1629-4868-836c-1704aba8e350)
+ 1. convert your image to bitmap
+ 2. goto se78 tcode
+ 3. double click bitmap and click import
+ 4. browse and choose your image
+ 5. choose name desc and type (we have to choose same in smartform)
+ 6. now we uploaded the image to sap now we can use the iamge in smartform
+ 7. go to smartform> page and create a new window
+ 8. check or set the position from formpainter if required.
+ 9. right click on the window and create a graphics.
+ 10. pass the necessary data. 
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fc53e92c-3286-4ae9-a51f-5d8b11bba351)
 
