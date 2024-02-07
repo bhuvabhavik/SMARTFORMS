@@ -21,7 +21,12 @@ pass the text module name
 1. import the funciton module *_read_text_*.
 
    ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fa754001-52cc-4d09-9451-50fde16d1e43)
-2.
+2....
+   ...
+   skipped due to some mistake..todo later
+
+
+   # dynamic text
 
    
 
