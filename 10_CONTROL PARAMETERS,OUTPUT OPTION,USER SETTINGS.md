@@ -1,3 +1,5 @@
+# _CONTROL PARAMETERS,OUTPUT OPTION,USER SETTINGS_
+
 ### uncomment and declare your own control and output parameters
 ![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/68d5ba7b-2be8-4212-9fef-f8fd956beb8e)
 
