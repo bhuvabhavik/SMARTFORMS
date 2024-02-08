@@ -36,6 +36,14 @@ lets create a seperate window for smartforms.
 
 
 
+# Creation of FOLDER
+
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/ac417182-a78d-4653-b1e5-3431d37230ea)
 
 
+# Creation of PAGE
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/017f58b2-41e4-4113-aa4b-09b5e8f821fb)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/e972c76c-1a37-4f32-b534-3e317c327d55)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/c0f4293f-090f-4089-a7e4-560a75ffdb55)
+![image](https://github.com/bhuvabhavik/SMARTFORMS/assets/49744703/fa8e4d5f-b56c-4f54-9b2a-fe82eb14c627)
 
